@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6247D2C29E917EB8D8B3EEA73D1A2021F1464BAC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6247D2C29E917EB8D8B3EEA73D1A2021F1464BAC" : 0,
+    "C67A72E3AE41807A2021F55ED9271A74E0857493" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8AC9179A-024D-4913-936F-6C9E6A56E3BF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6247D2C29E917EB8D8B3EEA73D1A2021F1464BAC" : "TestApp\/",
+    "C67A72E3AE41807A2021F55ED9271A74E0857493" : "WeatherMap\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/semv2009\/TestApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6247D2C29E917EB8D8B3EEA73D1A2021F1464BAC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/semv2009\/WeatherMap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C67A72E3AE41807A2021F55ED9271A74E0857493"
+    }
+  ]
+}
