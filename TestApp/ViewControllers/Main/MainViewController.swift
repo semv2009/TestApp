@@ -25,11 +25,16 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(stack)
         let moc = stack!.newBackgroundWorkerMOC()
         do{
-        let person = try  Leadership.allInContext(moc)
-        print(person.count)
+        let person = try  Accountant.allInContext(moc)
+        print("Accountant = \(person.count)")
+        let personw = try  FellowWorker.allInContext(moc)
+        print("FellowWorker = \(personw.count)")
+        let personq = try  Leadership.allInContext(moc)
+        print("Leadership = \(personq.count)")
+    
+            
         } catch {
             print("Error creating inital data: \(error)")
         }

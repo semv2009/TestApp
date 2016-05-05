@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 import BNRCoreDataStack
-@objc(Employee)
+
 class Employee: Person {
     @NSManaged var beginLunchTime: NSDate?
     @NSManaged var endLunchTime: NSDate?

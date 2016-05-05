@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         CoreDataStack.constructSQLiteStack(withModelName: "Model") {[unowned self]result in
             switch result {
             case .Success(let stack):
-                print("Result ok")
                 self.coreDataStack = stack
                 self.createDB()
                 dispatch_async(dispatch_get_main_queue()){
@@ -45,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         do {
             try moc.performAndWaitOrThrow {
                 let person = Leadership(managedObjectContext: moc)
-                person.fullName = "Gym"
+                person.fullName = "Sam"
                 person.salary = 35000
                 person.beginBusinessHours = NSDate()
                 person.endBusinessHours = NSDate()
