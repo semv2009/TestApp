@@ -13,7 +13,7 @@
 		8B4A976B1CDB2766007F3439 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A97691CDB2766007F3439 /* TabBarController.xib */; };
 		8B4A977C1CDB2B5B007F3439 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A977A1CDB2B5B007F3439 /* LoadingViewController.swift */; };
 		8B4A977D1CDB2B5B007F3439 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4A977B1CDB2B5B007F3439 /* LoadingViewController.xib */; };
-		8B4A97801CDB2C54007F3439 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A977E1CDB2C54007F3439 /* Model.xcdatamodeld */; };
+		8B4A97831CDB2D35007F3439 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B4A97811CDB2D35007F3439 /* Model.xcdatamodeld */; };
 		8B58B3F31CDA0863008F6C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B58B3F21CDA0863008F6C35 /* AppDelegate.swift */; };
 		8B58B3FA1CDA0863008F6C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B58B3F91CDA0863008F6C35 /* Assets.xcassets */; };
 		8B58B3FD1CDA0863008F6C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B58B3FB1CDA0863008F6C35 /* LaunchScreen.storyboard */; };
@@ -33,7 +33,7 @@
 		8B4A97691CDB2766007F3439 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBarController.xib; path = TestApp/ViewControllers/TabBarController.xib; sourceTree = SOURCE_ROOT; };
 		8B4A977A1CDB2B5B007F3439 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingViewController.swift; path = TestApp/ViewControllers/LoadingViewController.swift; sourceTree = SOURCE_ROOT; };
 		8B4A977B1CDB2B5B007F3439 /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadingViewController.xib; path = TestApp/ViewControllers/LoadingViewController.xib; sourceTree = SOURCE_ROOT; };
-		8B4A977F1CDB2C54007F3439 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8B4A97821CDB2D35007F3439 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		8B58B3EF1CDA0863008F6C35 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B58B3F21CDA0863008F6C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B58B3F91CDA0863008F6C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,12 +112,12 @@
 		8B58B4051CDA09A3008F6C35 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8B4A977E1CDB2C54007F3439 /* Model.xcdatamodeld */,
 				8B58B4411CDA197F008F6C35 /* Person.swift */,
 				8B58B4501CDA21A0008F6C35 /* Employee.swift */,
 				8B4A975C1CDB21D6007F3439 /* FellowWorker.swift */,
 				8B58B44C1CDA2175008F6C35 /* Accountant.swift */,
 				8B58B4481CDA1A40008F6C35 /* Leadership.swift */,
+				8B4A97811CDB2D35007F3439 /* Model.xcdatamodeld */,
 			);
 			name = Model;
 			path = ../../WeatherMap/WeatherMap;
@@ -308,7 +308,7 @@
 				8B58B4431CDA197F008F6C35 /* Person.swift in Sources */,
 				8B58B4251CDA0AC1008F6C35 /* MainViewController.swift in Sources */,
 				8B4A977C1CDB2B5B007F3439 /* LoadingViewController.swift in Sources */,
-				8B4A97801CDB2C54007F3439 /* Model.xcdatamodeld in Sources */,
+				8B4A97831CDB2D35007F3439 /* Model.xcdatamodeld in Sources */,
 				8B58B44E1CDA2175008F6C35 /* Accountant.swift in Sources */,
 				8B58B3F31CDA0863008F6C35 /* AppDelegate.swift in Sources */,
 			);
@@ -461,12 +461,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8B4A977E1CDB2C54007F3439 /* Model.xcdatamodeld */ = {
+		8B4A97811CDB2D35007F3439 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8B4A977F1CDB2C54007F3439 /* Model.xcdatamodel */,
+				8B4A97821CDB2D35007F3439 /* Model.xcdatamodel */,
 			);
-			currentVersion = 8B4A977F1CDB2C54007F3439 /* Model.xcdatamodel */;
+			currentVersion = 8B4A97821CDB2D35007F3439 /* Model.xcdatamodel */;
 			name = Model.xcdatamodeld;
 			path = ../../TestApp/TestApp/Model/Model.xcdatamodeld;
 			sourceTree = "<group>";
