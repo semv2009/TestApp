@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.rootViewController = LoadingViewController()
         
-        CoreDataStack.constructSQLiteStack(withModelName: "Model") {[unowned self]result in
+        CoreDataStack.constructSQLiteStack(withModelName: "Person") {[unowned self]result in
             switch result {
             case .Success(let stack):
                 self.coreDataStack = stack
